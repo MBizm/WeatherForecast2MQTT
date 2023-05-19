@@ -1,0 +1,19 @@
+# fill required information and copy this file to  ~/.wf2m/config.properties
+
+[Forecast-OWMData]
+# OpenWeatherMap account data - this is essential to run weather forecast
+APIKeyDomain=https://home.openweathermap.org/api_keys
+#APIKeyName=<enter your token name here - optional>
+#APIKey=<enter your token here>
+
+[Forecast-IPInfoData]
+# IPInfo account data - this is essential to run weather forecast
+APIKeyDomain=https://ipinfo.io/account
+#APIKey=<enter your token here>
+
+[MQTT]
+# MQTT information - this is essential to persist information on MQTT
+IPAddress=<enter MQTT IP here>
+Port=<enter MQTT Port here>
+Username=<enter username here>
+Password=<enter password here>
